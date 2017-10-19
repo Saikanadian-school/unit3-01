@@ -1,0 +1,88 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 0}, {309, 45}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "D20AC73F-5A01-4018-8F7C-81BDBDA44189",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "guess a number between 1 and ten",
+          "name" : "guess",
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 122}, {80, 45}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "number_button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "check",
+          "uuid" : "0AB0C652-03A1-4B7B-A930-1361F4A25FC3",
+          "class" : "Button",
+          "name" : "check",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 175}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "E41F9E10-0A67-4A8E-90EF-913C6D10011A",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "correct_answer",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 53}, {200, 61}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "1EE53945-FB30-4A3C-8EAF-5634959FB9D0",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "number",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
